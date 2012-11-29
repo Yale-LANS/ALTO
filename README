@@ -31,7 +31,8 @@ Introduction
   simple and intuitive.  The Yale LANS team has developed much of the software
   to begin integration with ISPs (the Portal Server) and P2P applications
   (libraries for querying Portal services, Application Optimization
-  Engines, and P4P-guided peer selection).
+  Engines, and P4P-guided peer selection). This release supports ALTO protocol
+  upon P4P.
 
 Authors and Contact Information
 ===============================
@@ -58,7 +59,7 @@ System Requirements
 Supported Platforms
 -------------------
 
-  Many parts of the P4P software aree compatible with both Linux and Windows,
+  Many parts of the P4P software are compatible with both Linux and Windows,
   in particular the common libraries that can be used for integrating P4P with
   existing applications.
 
