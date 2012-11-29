@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb/compat
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb/copyright
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb/docs
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/dist/deb/rules
+END

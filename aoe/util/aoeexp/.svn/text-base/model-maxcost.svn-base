@@ -1,0 +1,74 @@
+/* the set of PIDs */
+set TotalPID;
+
+/* video rate */
+param RATE;
+
+/* P2P capacity efficiency */
+param ETA;
+
+/* minimum CDN load */
+param MINCDN;
+
+/* CDN extra load */
+param ALPHA;
+
+/* the set of peer uploading capacities */
+param UPLOAD { TotalPID }, >= 0;
+
+/* the set of location CDN source */
+param SOURCE { TotalPID }, >= 0;
+
+/* the set of peer number in PIDs */
+param CLIENTNUM { TotalPID }, >=0;
+
+/* the set of cross-PID prices */
+param PRICE { i in TotalPID, j in TotalPID }, >= 0;
+
+/* PID CDN load */
+var s { i in TotalPID }, >= 0;
+
+/* PID-PID traffic */
+var x { i in TotalPID, j in TotalPID }, >= 0;
+
+/* PID-PID CDN traffic */
+var xc { i in TotalPID, j in TotalPID }, >= 0;
+
+/* PID-PID P2P traffic */
+var xp { i in TotalPID, j in TotalPID }, >= 0;
+
+/* CDN load constraints */
+cdn_load:
+ALPHA * ( sum { i in TotalPID } s[i] ) <= MINCDN;
+
+/* P2P CDN traffic */
+cdn_p2p { i in TotalPID, j in TotalPID }:
+xc[i,j] + xp[i,j] = x[i,j];
+
+/* streaming supply-demand matching */
+streaming_supply { i in TotalPID }:
+sum { j in TotalPID} x[j,i]  >= RATE * CLIENTNUM[i];
+
+cdn_supply { i in TotalPID }:
+sum { j in TotalPID} xc[j,i] >= RATE;
+
+cdn_location { i in TotalPID }:
+sum { j in TotalPID } xc[i,j] <= s[i] * SOURCE[i];
+
+/* supply constraints */
+supply_limit { i in TotalPID }:
+sum { j in TotalPID } xp[i,j] <= ETA * UPLOAD[i];
+
+cdn_limit { i in TotalPID }:
+sum { j in TotalPID } xc[i,j] <= s[i] * SOURCE[i];
+
+/* total bandwidth pDistance product */
+var bdp;
+bdp_def:
+bdp = sum { i in TotalPID, j in TotalPID } (x[i, j] * PRICE[i, j]);
+
+/* objective */
+maximize obj: bdp;
+
+end;
+

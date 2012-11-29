@@ -1,0 +1,26 @@
+# Configure 3 nodes in a triangle
+pid aggregation-node 1:1 PID1 prefixes 127.0.0.1
+pid aggregation-node 1:2 PID2 prefixes 127.0.0.2
+pid aggregation-node 1:3 PID3 prefixes 127.0.0.3
+
+pid link PID1 PID2 PID1-PID2 capacity 10.0 traffic static 0.0 routing-weight 10 description
+pid link PID2 PID3 PID2-PID3 capacity 10.0 traffic static 0.0 routing-weight 10 description
+pid link PID3 PID1 PID3-PID1 capacity 10.0 traffic static 0.0 routing-weight 10 description
+
+pid link PID2 PID1 PID2-PID1 capacity 10.0 traffic static 0.0 routing-weight 10 description
+pid link PID3 PID2 PID3-PID2 capacity 10.0 traffic static 0.0 routing-weight 10 description
+pid link PID1 PID3 PID1-PID3 capacity 10.0 traffic static 0.0 routing-weight 10 description
+
+# Configure costs for each link
+pdistance link PID1-PID2 static 10.0
+pdistance link PID2-PID3 static 10.0
+pdistance link PID3-PID1 static 10.0
+
+pdistance link PID2-PID1 static 20.0
+pdistance link PID3-PID2 static 10.0
+pdistance link PID1-PID3 static 10.0
+
+# Force a cost computation
+pdistance update 20
+
+exit

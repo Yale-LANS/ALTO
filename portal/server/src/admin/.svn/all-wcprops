@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin
+END
+admin_net.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin/admin_net.cpp
+END
+admin_view.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin/admin_view.cpp
+END
+admin_net.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin/admin_net.h
+END
+admin_view.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin/admin_view.h
+END
+admin_state.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin/admin_state.cpp
+END
+admin_state.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/src/admin/admin_state.h
+END

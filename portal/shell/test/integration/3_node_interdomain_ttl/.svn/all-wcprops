@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/test/integration/3_node_interdomain_ttl
+END
+input.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/test/integration/3_node_interdomain_ttl/input.txt
+END
+output.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/test/integration/3_node_interdomain_ttl/output.txt
+END

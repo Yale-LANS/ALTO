@@ -1,0 +1,35 @@
+PID1	internal
+PID2	internal
+PID3	internal
+PID4	internal
+PIDEXT	external
+PID1-PID2	PID1	PID2
+PID2-PID3	PID2	PID3
+PID3-PID4	PID3	PID4
+PID4-PID1	PID4	PID1
+PID2-PID1	PID2	PID1
+PID3-PID2	PID3	PID2
+PID4-PID3	PID4	PID3
+PID1-PID4	PID1	PID4
+PID4-EXT	PID4	PIDEXT
+PID1	1.i.myisp.net
+PID2	2.i.myisp.net
+PID3	3.i.myisp.net
+PID4	4.i.myisp.net
+PIDEXT	200.e.myisp.net
+1.i.myisp.net	1.i.myisp.net	20
+1.i.myisp.net	2.i.myisp.net	100
+1.i.myisp.net	3.i.myisp.net	190
+1.i.myisp.net	4.i.myisp.net	270
+2.i.myisp.net	1.i.myisp.net	171
+2.i.myisp.net	2.i.myisp.net	20
+2.i.myisp.net	3.i.myisp.net	90
+2.i.myisp.net	4.i.myisp.net	170
+3.i.myisp.net	1.i.myisp.net	81
+3.i.myisp.net	2.i.myisp.net	181
+3.i.myisp.net	3.i.myisp.net	20
+3.i.myisp.net	4.i.myisp.net	80
+4.i.myisp.net	1.i.myisp.net	1
+4.i.myisp.net	2.i.myisp.net	101
+4.i.myisp.net	3.i.myisp.net	191
+4.i.myisp.net	4.i.myisp.net	20

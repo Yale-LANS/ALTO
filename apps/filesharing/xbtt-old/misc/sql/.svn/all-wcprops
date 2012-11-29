@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql
+END
+sql_result.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql/sql_result.h
+END
+database.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql/database.cpp
+END
+sql_query.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql/sql_query.cpp
+END
+database.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql/database.h
+END
+sql_query.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql/sql_query.h
+END
+sql_result.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbtt-old/misc/sql/sql_result.cpp
+END

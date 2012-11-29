@@ -1,0 +1,2 @@
+include $(abspath $(dir $(lastword ${MAKEFILE_LIST})))/api/Makefile.dist		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/tracker/Makefile.dist

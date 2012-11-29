@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/protocol
+END
+protobase.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/protocol/protobase.h
+END
+exceptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/protocol/exceptions.h
+END
+metainfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/protocol/metainfo.h
+END

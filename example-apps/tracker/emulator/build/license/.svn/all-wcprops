@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/build/license
+END
+add_license.pl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/build/license/add_license.pl
+END

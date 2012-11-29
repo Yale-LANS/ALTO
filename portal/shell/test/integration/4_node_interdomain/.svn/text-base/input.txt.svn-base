@@ -1,0 +1,56 @@
+isp default myisp.net
+
+# Configure 3 nodes in a square
+pid internal 1 PID1 prefixes 10.0.0.1
+pid internal 2 PID2 prefixes 10.0.0.2
+pid internal 3 PID3 prefixes 10.0.0.3
+pid internal 4 PID4 prefixes 10.0.0.4
+pid external 200 PIDEXT
+
+pid link PID1 PID2 PID1-PID2 capacity 10.0 traffic static 0.0 routing-weight 10 
+pid link PID2 PID3 PID2-PID3 capacity 10.0 traffic static 0.0 routing-weight 10
+pid link PID3 PID4 PID3-PID4 capacity 10.0 traffic static 0.0 routing-weight 10
+pid link PID4 PID1 PID4-PID1 capacity 10.0 traffic static 0.0 routing-weight 10
+
+pid link PID2 PID1 PID2-PID1 capacity 10.0 traffic static 0.0 routing-weight 100
+pid link PID3 PID2 PID3-PID2 capacity 10.0 traffic static 0.0 routing-weight 100
+pid link PID4 PID3 PID4-PID3 capacity 10.0 traffic static 0.0 routing-weight 100
+pid link PID1 PID4 PID1-PID4 capacity 10.0 traffic static 0.0 routing-weight 100
+
+pid link PID4 PIDEXT PID4-EXT capacity 40.0 traffic static 10.0 routing-weight 100
+
+# Configure costs for each link
+pdistance link PID1-PID2 static 100.0
+pdistance link PID2-PID3 static 90.0
+pdistance link PID3-PID4 static 80.0
+pdistance link PID4-PID1 static 70.0
+
+pdistance link PID2-PID1 static 40.0
+pdistance link PID3-PID2 static 20.0
+pdistance link PID4-PID3 static 20.0
+pdistance link PID1-PID4 static 10.0
+
+pdistance link PID4-EXT static 50.0
+
+# Configure interdomain costs
+pdistance intra-pid default 20
+pdistance inter-pid default 40
+pdistance interdomain default 60
+
+# Force a cost computation
+pdistance update
+
+# Get the topology
+show topology nodes
+show topology links
+
+# Get the PID map
+show pid nodes
+
+# Get the computed prices
+show pdistance 1.i.myisp.net
+show pdistance 2.i.myisp.net
+show pdistance 3.i.myisp.net
+show pdistance 4.i.myisp.net
+
+exit

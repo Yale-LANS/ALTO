@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing
+END
+Makefile.dist
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/Makefile.dist
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/CMakeLists.txt
+END

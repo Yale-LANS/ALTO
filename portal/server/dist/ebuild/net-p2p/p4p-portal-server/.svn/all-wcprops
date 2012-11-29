@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/dist/ebuild/net-p2p/p4p-portal-server
+END
+Manifest
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/dist/ebuild/net-p2p/p4p-portal-server/Manifest
+END
+p4p-portal-server-VERSION.ebuild.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/dist/ebuild/net-p2p/p4p-portal-server/p4p-portal-server-VERSION.ebuild.tmpl
+END

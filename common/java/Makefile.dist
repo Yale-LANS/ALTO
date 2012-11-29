@@ -1,0 +1,3 @@
+ALLPACKAGES += p4p-common-java
+DEP_p4p_common_java :=
+LOC_p4p_common_java := $(abspath $(dir $(lastword ${MAKEFILE_LIST})))

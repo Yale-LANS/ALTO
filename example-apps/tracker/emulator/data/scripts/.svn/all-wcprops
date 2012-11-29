@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts
+END
+peer-join.pl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/peer-join.pl
+END
+swarm-add.gp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/swarm-add.gp
+END
+Generate.pm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/Generate.pm
+END
+swarm-add.pl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/swarm-add.pl
+END
+P4PPortalAPI.pm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/P4PPortalAPI.pm
+END
+peer-join.gp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/peer-join.gp
+END
+config.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/example-apps/tracker/emulator/data/scripts/config.sh
+END

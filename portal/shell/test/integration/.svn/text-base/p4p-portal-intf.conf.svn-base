@@ -1,0 +1,10 @@
+[Admin]
+type = REST
+port = 16672
+threads = 2
+allow-admin = true
+
+[Client-REST]
+type = REST
+port = 16671
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/java
+END
+Makefile.dist
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/java/Makefile.dist
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/java/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/java/.project
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/java/CMakeLists.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/java/build.xml
+END

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<project default="jar" basedir=".">
+
+	<property name="dir.src" location="src"/>
+	<property name="dir.out" location="bin"/>
+	<property name="dir.test" location="test"/>
+	<property name="dir.test.out" location="bin-test"/>
+	<property name="dir.dist" location="."/>
+
+	<target name="init">
+		<mkdir dir="${dir.out}" />
+		<mkdir dir="${dir.test.out}" />
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="${dir.src}" destdir="${dir.out}" source="1.5" target="1.5"/>
+	</target>
+
+	<target name="jar" depends="init,compile">
+		<jar destfile="${dir.dist}/p4p_common.jar">
+			<fileset dir="${dir.out}" includes="**/*.class **/*.MF"/>
+		</jar>
+	</target>
+
+	<target name="test" depends="init,compile">
+		<path id="classpath.test">
+			<pathelement path="${dir.out}"/>
+			<pathelement path="${dir.test}"/>
+			<pathelement path="${dir.test.out}"/>
+		</path>
+		<javac srcdir="${dir.test}" destdir="${dir.test.out}" source="1.5" target="1.5">
+			<classpath refid="classpath.test"/>
+		</javac>
+		<junit printsummary="withOutAndErr" showoutput="true" haltonfailure="true">
+			<classpath refid="classpath.test"/>
+			<batchtest>
+				<fileset dir="${dir.test.out}"/>
+			</batchtest>
+		</junit>
+	</target>
+
+	<target name="clean" depends="init">
+		<delete dir="${dir.out}"/>
+		<delete dir="${dir.test.out}"/>
+		<delete file="${dir.dist}/p4p_common.jar"/>
+	</target>
+
+</project>

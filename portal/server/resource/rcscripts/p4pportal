@@ -1,0 +1,88 @@
+#! /bin/bash
+#
+# p4pportal.sh    Start/Stop the P4P Portal
+#
+# description: The P4P Portal is the component in the P4P framework which \
+#              provides guidance to applications based on ISP preferences \
+#              and network information.
+# processname: p4p_portal
+# config: /etc/p4pportal.conf 
+# pidfile: no pidfile is generated.
+# 
+# Author(s):
+#	Richard Alimi <richard.alimi@yale.edu>
+#       Hao Wang <hao.wang@yale.edu>
+#       Ye Wang <ye.wang@yale.edu>
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+prog="p4p_portal"
+binpath="/usr/sbin/p4p_portal"
+
+start() {
+	echo -n $"Starting $prog: "
+	if $binpath --daemon
+	then
+		echo " success"
+	else
+		echo " failed"
+	fi
+
+}
+
+stop() {
+	echo -n $"Stopping $prog: "
+	
+	if killall $binpath
+	then
+		echo " success"
+	else
+		echo " failed"
+	fi
+	
+}	
+
+dstatus() {
+	echo $"Checking for $prog daemon: "
+	
+	if pidof $binpath > /dev/null
+	then
+		echo "$prog is running"
+	else
+		echo "$prog is not running"
+	fi
+
+}	
+
+restart() {
+  	stop
+	start
+}	
+
+force-reload() {
+	echo -n $"Force-reload not supported."
+	echo
+	return 0
+}	
+
+# See how we were called.
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart)
+  	restart
+	;;
+  status)
+  	dstatus
+	;;
+  force-reload)
+  	force-reload
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|restart|status|force-reload}"
+	exit 1
+esac

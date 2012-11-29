@@ -1,0 +1,44 @@
+# Makefile.dist:
+#   There should be a Makefile.dist file in each directory.  The purpose
+#   of these files is for the packaging/distribution system to discover
+#   which components are present and specify packaging parameters.
+#
+#   A Makefile.dist file either points to subdirectories (as this one does)
+#   or it updates Makefile variables identifying parameters of a particular
+#   component. For example, a Makefile.dist file may define the following:
+#     ALLPACKAGES += my-component-exe
+#     DEP_my_component_exe := my-component-lib
+#     LOC_my_component_exe := $(abspath $(dir $(lastword ${MAKEFILE_LIST})))
+#   which adds the component to the global list of those available,
+#   configures its dependencies (used during automated package building) and
+#   its source location. Note that the somewhat-awkward value for the LOC_
+#   variable is required to get the full path to the directory containing
+#   the Makefile.dist file.
+
+# Define variables as non-recursive
+COMMONFILES :=
+ALLPACKAGES :=
+
+# Common files that are included in each package
+COMMONFILES +=								\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/AUTHORS		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/LICENSE		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/README		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/VERSION
+
+# Include Makefile.dist files from subdirectories
+include $(abspath $(dir $(lastword ${MAKEFILE_LIST})))/common/Makefile.dist		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/common-server/Makefile.dist	\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/portal/Makefile.dist		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/aoe/Makefile.dist		\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/example-apps/Makefile.dist	\
+	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/apps/Makefile.dist
+
+# Include Makefile.dist files from directories listed in P4P_OTHER_SOURCES
+include $(addsuffix /Makefile.dist,${P4P_OTHER_SOURCES})
+
+# Debugging target for identifying the available packages
+dist-print-config:
+	echo "Packages: ${ALLPACKAGES}"
+	echo "Common Files: ${COMMONFILES}"
+

@@ -1,0 +1,3 @@
+ALLPACKAGES += p4p-common-com
+DEP_p4p_common_com := p4p-common-cpp
+LOC_p4p_common_com := $(abspath $(dir $(lastword ${MAKEFILE_LIST})))

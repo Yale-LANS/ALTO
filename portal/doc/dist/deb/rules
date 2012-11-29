@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/cmake.mk
+
+DEB_CMAKE_NORMAL_ARGS += -DCMAKE_BUILD_TYPE:STRING=Release
+
+common-install-impl::
+	# Copy compiled docs back to source directory
+	cp ${DEB_DESTDIR}/usr/share/doc/p4p_portal_manual.pdf ${CURDIR}/${DEB_SRCDIR}/config-manual
+	# Remove previously-installed files
+	rm -rf ${DEB_DESTDIR}/*
+

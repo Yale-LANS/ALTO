@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/config-manual
+END
+introduction.tex
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/config-manual/introduction.tex
+END
+p4p_portal_manual.tex
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/config-manual/p4p_portal_manual.tex
+END
+config.tex
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/config-manual/config.tex
+END
+loading.tex
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/config-manual/loading.tex
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/config-manual/CMakeLists.txt
+END

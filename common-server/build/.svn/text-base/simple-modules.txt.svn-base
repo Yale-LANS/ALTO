@@ -1,0 +1,3 @@
+p4p_common_cpp		p4p/pid.h
+p4p_common_server	p4pserver/local_obj.h
+p4p_aoe_engine		p4paoe/swarm.h

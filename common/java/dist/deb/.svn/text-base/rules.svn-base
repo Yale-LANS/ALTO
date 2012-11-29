@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/ant.mk
+
+JAVA_HOME		:= /usr/lib/jvm/default-java
+DEB_ANT_BUILDFILE	:= build.xml
+DEB_ANT_BUILD_TARGET	:= jar
+
+install/p4p-common-java::
+	install -m 644 -D p4p_common.jar $(DEB_DESTDIR)/usr/share/java/p4p_common-$(DEB_UPSTREAM_VERSION).jar
+	dh_link /usr/share/java/p4p_common-$(DEB_UPSTREAM_VERSION).jar /usr/share/java/p4p_common.jar

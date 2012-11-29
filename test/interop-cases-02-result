@@ -1,0 +1,556 @@
+------------ Test cases for Interop 2012 ------------
+--- http://tools.ietf.org/pdf/draft-gurbani-alto-interop-cases-02.pdf ---
+
+
+------------ Test-IRD-1 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-directory+json')]
+{
+	"resources" : [
+		{
+			"capabilities" : {
+				"cost-modes" : [
+					"numerical"
+				],
+				"cost-types" : [
+					"routingcost"
+				]
+			},
+			"media-types" : [
+				"application/alto-costmap+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/costmap/numerical/routingcost"
+		},
+		{
+			"capabilities" : {
+				"cost-modes" : [
+					"ordinal"
+				],
+				"cost-types" : [
+					"routingcost"
+				]
+			},
+			"media-types" : [
+				"application/alto-costmap+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/costmap/ordinal/routingcost"
+		},
+		{
+			"media-types" : [
+				"application/alto-networkmap+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/networkmap"
+		},
+		{
+			"media-types" : [
+				"application/alto-serverinfo+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/serverinfo"
+		},
+		{
+			"accepts" : [
+				"application/alto-costmapfilter+json"
+			],
+			"capabilities" : {
+				"cost-constraints" : true,
+				"cost-modes" : [
+					"numerical",
+					"ordinal"
+				],
+				"cost-types" : [
+					"routingcost"
+				]
+			},
+			"media-types" : [
+				"application/alto-costmap+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/costmap/filtered"
+		},
+		{
+			"accepts" : [
+				"application/alto-endpointcostparams+json"
+			],
+			"capabilities" : {
+				"cost-constraints" : true,
+				"cost-modes" : [
+					"numerical",
+					"ordinal"
+				],
+				"cost-types" : [
+					"routingcost"
+				]
+			},
+			"media-types" : [
+				"application/alto-endpointcost+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/endpoints/cost"
+		},
+		{
+			"accepts" : [
+				"application/alto-endpointpropparams+json"
+			],
+			"capabilities" : {
+				"prop-types" : [
+					"pid"
+				]
+			},
+			"media-types" : [
+				"application/alto-endpointprop+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/endpoints/property"
+		},
+		{
+			"accepts" : [
+				"application/alto-networkmapfilter+json"
+			],
+			"media-types" : [
+				"application/alto-networkmap+json"
+			],
+			"uri" : "http://p4p-1.cs.yale.edu:6671/networkmap/filtered"
+		}
+	]
+}
+
+
+
+------------ Test-EPS-1 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointprop+json')]
+{
+	"meta" : {},
+	"data" : {
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:192.168.1.23" : {
+				"pid" : "mypid2"
+			}
+		}
+	}
+}
+
+
+
+------------ Test-EPS-2 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointprop+json')]
+{
+	"meta" : {},
+	"data" : {
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:192.168.10.23" : {
+				"pid" : "mypid3"
+			}
+		}
+	}
+}
+
+
+
+------------ Test-EPS-3 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointprop+json')]
+{
+	"meta" : {},
+	"data" : {
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:201.1.13.12" : {
+				"pid" : "defaultpid"
+			}
+		}
+	}
+}
+
+
+
+------------ Test-EPS-4 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointprop+json')]
+{
+	"meta" : {},
+	"data" : {
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:132.0.10.12" : {
+				"pid" : "transitpid1"
+			},
+			"ipv6:1234::192.168.1.23" : {
+				"pid" : "defaultpid"
+			}
+		}
+	}
+}
+
+
+
+------------ Test-ECS-1 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointcost+json')]
+{
+	"meta" : {},
+	"data" : {
+		"cost-mode" : "numerical",
+		"cost-type" : "routingcost",
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:10.0.0.0" : {
+				"ipv4:0.0.0.0" : 4,
+				"ipv4:10.0.0.0" : 0,
+				"ipv4:128.0.0.0" : 0,
+				"ipv4:130.0.0.0" : 0,
+				"ipv4:132.0.0.0" : 5,
+				"ipv4:135.0.0.0" : 10,
+				"ipv4:15.0.0.0" : 0,
+				"ipv4:192.168.10.0" : 0,
+				"ipv4:192.168.11.0" : 0
+			},
+			"ipv4:192.168.10.0" : {
+				"ipv4:0.0.0.0" : 5.1,
+				"ipv4:10.0.0.0" : 0,
+				"ipv4:128.0.0.0" : 0,
+				"ipv4:130.0.0.0" : 0,
+				"ipv4:132.0.0.0" : 8,
+				"ipv4:135.0.0.0" : 8,
+				"ipv4:15.0.0.0" : 0,
+				"ipv4:192.168.10.0" : 0,
+				"ipv4:192.168.11.0" : 0
+			},
+			"ipv4:192.168.11.0" : {
+				"ipv4:0.0.0.0" : 4,
+				"ipv4:10.0.0.0" : 0,
+				"ipv4:128.0.0.0" : 0,
+				"ipv4:130.0.0.0" : 0,
+				"ipv4:132.0.0.0" : 7,
+				"ipv4:135.0.0.0" : 8,
+				"ipv4:15.0.0.0" : 0,
+				"ipv4:192.168.10.0" : 0,
+				"ipv4:192.168.11.0" : 0
+			}
+		}
+	}
+}
+
+
+
+------------ Test-ECS-2 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointcost+json')]
+{
+	"meta" : {},
+	"data" : {
+		"cost-mode" : "ordinal",
+		"cost-type" : "routingcost",
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:192.168.10.1" : {
+				"ipv4:135.0.29.1" : 6,
+				"ipv4:192.168.10.23" : 1,
+				"ipv6:2001:DB8::2345:5678" : 1
+			}
+		}
+	}
+}
+
+
+
+------------ Test-ECS-3 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-endpointcost+json')]
+{
+	"meta" : {},
+	"data" : {
+		"cost-mode" : "numerical",
+		"cost-type" : "routingcost",
+		"map-vtag" : "1266506139",
+		"map" : {
+			"ipv4:10.0.0.0" : {
+				"ipv4:0.0.0.0" : 4,
+				"ipv4:132.0.0.0" : 5
+			},
+			"ipv4:192.168.11.0" : {
+				"ipv4:0.0.0.0" : 4
+			}
+		}
+	}
+}
+
+
+
+------------ Test-MAPS-1 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-networkmap+json')]
+{
+	"meta" : {},
+	"data" : {
+		"map-vtag" : "1266506139",
+		"map" : {
+			"defaultpid" : {
+				"ipv4" : [
+					"0.0.0.0/0"
+				],
+				"ipv6" : [
+					"::/0"
+				]
+			},
+			"mypid1" : {
+				"ipv4" : [
+					"10.0.0.0/8",
+					"15.0.0.0/8"
+				]
+			},
+			"mypid2" : {
+				"ipv4" : [
+					"192.168.0.0/16"
+				]
+			},
+			"mypid3" : {
+				"ipv4" : [
+					"192.168.10.0/24"
+				]
+			},
+			"peeringpid1" : {
+				"ipv4" : [
+					"128.0.0.0/16"
+				]
+			},
+			"peeringpid2" : {
+				"ipv4" : [
+					"130.0.0.0/16"
+				],
+				"ipv6" : [
+					"2001:db8::/32"
+				]
+			},
+			"transitpid1" : {
+				"ipv4" : [
+					"132.0.0.0/16"
+				]
+			},
+			"transitpid2" : {
+				"ipv4" : [
+					"135.0.0.0/16"
+				]
+			}
+		}
+	}
+}
+
+
+
+------------ Test-MAPS-2 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-costmap+json')]
+{
+	"meta" : {},
+	"data" : {
+		"cost-mode" : "numerical",
+		"cost-type" : "routingcost",
+		"map-vtag" : "1266506139",
+		"map" : {
+			"mypid1" : {
+				"defaultpid" : 4,
+				"mypid1" : 0,
+				"mypid2" : 0,
+				"mypid3" : 0,
+				"peeringpid1" : 0,
+				"peeringpid2" : 0,
+				"transitpid1" : 5,
+				"transitpid2" : 10
+			},
+			"mypid2" : {
+				"defaultpid" : 4,
+				"mypid1" : 0,
+				"mypid2" : 0,
+				"mypid3" : 0,
+				"peeringpid1" : 0,
+				"peeringpid2" : 0,
+				"transitpid1" : 7,
+				"transitpid2" : 8
+			},
+			"mypid3" : {
+				"defaultpid" : 5.1,
+				"mypid1" : 0,
+				"mypid2" : 0,
+				"mypid3" : 0,
+				"peeringpid1" : 0,
+				"peeringpid2" : 0,
+				"transitpid1" : 8,
+				"transitpid2" : 8
+			}
+		}
+	}
+}
+
+
+
+------------ Test-MAPS-3 ------------
+
+(200, 'OK')
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-costmap+json')]
+{
+	"meta" : {},
+	"data" : {
+		"cost-mode" : "ordinal",
+		"cost-type" : "routingcost",
+		"map-vtag" : "1266506139",
+		"map" : {
+			"mypid1" : {
+				"defaultpid" : 2,
+				"mypid1" : 1,
+				"mypid2" : 1,
+				"mypid3" : 1,
+				"peeringpid1" : 1,
+				"peeringpid2" : 1,
+				"transitpid1" : 3,
+				"transitpid2" : 7
+			},
+			"mypid2" : {
+				"defaultpid" : 2,
+				"mypid1" : 1,
+				"mypid2" : 1,
+				"mypid3" : 1,
+				"peeringpid1" : 1,
+				"peeringpid2" : 1,
+				"transitpid1" : 5,
+				"transitpid2" : 6
+			},
+			"mypid3" : {
+				"defaultpid" : 4,
+				"mypid1" : 1,
+				"mypid2" : 1,
+				"mypid3" : 1,
+				"peeringpid1" : 1,
+				"peeringpid2" : 1,
+				"transitpid1" : 6,
+				"transitpid2" : 6
+			}
+		}
+	}
+}
+
+
+
+------------ Test-FILTER-1 ------------
+
+200 OK
+[('transfer-encoding', 'chunked'), ('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-type', 'application/alto-networkmap+json')]
+{
+	"meta" : {},
+	"data" : {
+		"map-vtag" : "1266506139",
+		"map" : {
+			"mypid2" : {
+				"ipv4" : [
+					"192.168.0.0/16"
+				]
+			}
+		}
+	}
+}
+
+
+
+------------ Test-FILTER-2 ------------
+
+200 OK
+{
+	"meta" : {},
+	"data" : {
+		"cost-mode" : "numerical",
+		"cost-type" : "routingcost",
+		"map-vtag" : "1266506139",
+		"map" : {
+			"mypid1" : {
+				"mypid2" : 0,
+				"peeringpid1" : 0,
+				"transitpid2" : 10
+			},
+			"mypid3" : {
+				"mypid2" : 0,
+				"peeringpid1" : 0,
+				"transitpid2" : 8
+			}
+		}
+	}
+}
+
+
+
+------------ Test-JSON-ERROR-1 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '24'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_SYNTAX"
+}
+
+
+
+------------ Test-JSON-ERROR-2 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '36'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_JSON_FIELD_MISSING"
+}
+
+
+
+------------ Test-JSON-ERROR-3 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '33'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_JSON_VALUE_TYPE"
+}
+
+
+
+------------ Test-JSON-ERROR-4 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '35'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_INVALID_COST_MODE"
+}
+
+
+
+------------ Test-JSON-ERROR-5 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '35'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_INVALID_COST_TYPE"
+}
+
+
+
+------------ Test-JSON-ERROR-6 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '39'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_INVALID_PROPERTY_TYPE"
+}
+
+
+
+------------ Test-JSON-ERROR-7 ------------
+
+(400, 'Bad Request')
+[('date', 'Wed, 31 Oct 2012 06:03:17 GMT'), ('content-length', '35'), ('content-type', 'application/alto-error+json')]
+{
+	"code" : "E_INVALID_COST_MODE"
+}

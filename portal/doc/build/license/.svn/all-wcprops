@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/build/license
+END
+add_license.pl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/doc/build/license/add_license.pl
+END

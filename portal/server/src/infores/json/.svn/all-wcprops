@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/main/!svn/ver/273/trunk/p4p/alto-prototype/portal/server/src/infores/json
+END
+elements.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/272/trunk/p4p/alto-prototype/portal/server/src/infores/json/elements.h
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/230/trunk/p4p/alto-prototype/portal/server/src/infores/json/writer.h
+END
+reader.inl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/273/trunk/p4p/alto-prototype/portal/server/src/infores/json/reader.inl
+END
+visitor.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/main/!svn/ver/230/trunk/p4p/alto-prototype/portal/server/src/infores/json/visitor.h
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/273/trunk/p4p/alto-prototype/portal/server/src/infores/json/reader.h
+END
+elements.inl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/main/!svn/ver/230/trunk/p4p/alto-prototype/portal/server/src/infores/json/elements.inl
+END
+writer.inl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/272/trunk/p4p/alto-prototype/portal/server/src/infores/json/writer.inl
+END

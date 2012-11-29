@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/main/!svn/ver/283/trunk/p4p/alto-prototype/portal
+END
+Makefile.dist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/Makefile.dist
+END
+BUGREPORT
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/BUGREPORT
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/CMakeLists.txt
+END

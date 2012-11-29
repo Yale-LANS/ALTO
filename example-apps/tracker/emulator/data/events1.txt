@@ -1,0 +1,50 @@
+sleep 1000
+
+add_channel C1 filesharing-generic
+sleep 1000
+
+peer_join C1 C1P1 192.16.2.1	1234
+peer_join C1 C1P2 129.7.235.64	1234
+peer_join C1 C1P3 155.97.1.1	1234
+peer_join C1 C1P4 192.16.2.89	1234
+peer_join C1 C1P5 128.1.1.1	1234
+
+select_peers C1 C1P1 50
+select_peers C1 C1P2 50
+select_peers C1 C1P3 50
+select_peers C1 C1P4 50
+select_peers C1 C1P5 50
+
+peer_leave C1 C1P1
+peer_leave C1 C1P2
+peer_leave C1 C1P3
+
+select_peers C1 C1P4 50
+select_peers C1 C1P5 50
+
+show_current
+
+add_channel C2 filesharing-swarm-dependent
+sleep 1000
+
+peer_join C2 C2P1 128.111.23.1	1234
+peer_join C2 C2P2 128.83.3.1	1234
+peer_join C2 C2P3 12.108.127.2	1234
+peer_join C2 C2P4 172.16.4.5	1234
+peer_join C2 C2P5 141.161.0.0	1234
+
+select_peers C2 C2P1 50
+select_peers C2 C2P2 50
+select_peers C2 C2P3 50
+select_peers C2 C2P4 50
+select_peers C2 C2P5 50
+
+peer_leave C2 C2P1
+peer_leave C2 C2P2
+peer_leave C2 C2P3
+
+select_peers C2 C2P4 50
+select_peers C2 C2P5 50
+
+show_diff
+

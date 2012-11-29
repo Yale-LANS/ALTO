@@ -1,0 +1,24 @@
+# Copyright 1999-2008 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+inherit cmake-utils
+
+DESCRIPTION="P4P Common Server Libraries"
+HOMEPAGE="http://p4p.cs.yale.edu/"
+SRC_URI="%BASEURL%/${P}.tar.gz"
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE=""
+
+DOCS="README LICENSE AUTHORS"
+
+RDEPEND=">=dev-libs/boost-1.35
+	dev-libs/log4cpp
+	sys-libs/zlib
+	net-libs/libmicrohttpd
+	~net-p2p/p4p-common-cpp-${PV}"
+DEPEND="${RDEPEND}
+	>=dev-util/cmake-2.6"
+

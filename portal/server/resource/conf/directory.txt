@@ -1,0 +1,111 @@
+         HTTP/1.1 200 OK
+         Content-Length: 2596
+         Connection: close
+         Content-Type: application/alto-directory+json
+         Date: Wed, 29 Jun 2011 10:52:09 GMT
+
+         {
+         "resources": [
+            {
+            "capabilities": {
+               "cost-modes": [
+                  "numerical"
+               ],
+               "cost-types": [
+                  "routingcost"
+               ]
+            },
+            "media-types": [
+               "application/alto-costmap+json"
+            ],
+            "uri": "http://alto.ietf.org/costmap/numerical/routingcost"
+         },
+         {
+            "capabilities": {
+               "cost-modes": [
+                  "ordinal"
+               ],
+               "cost-types": [
+                  "routingcost"
+               ]
+            },
+            "media-types": [
+               "application/alto-costmap+json"
+            ],
+            "uri": "http://alto.ietf.org/costmap/ordinal/routingcost"
+         },
+         {
+            "media-types": [
+               "application/alto-networkmap+json"
+            ],
+            "uri": "http://alto.ietf.org/networkmap"
+         },
+         {
+            "media-types": [
+               "application/alto-serverinfo+json"
+            ],
+            "uri": "http://alto.ietf.org/serverinfo"
+         },
+         {
+            "accepts": [
+               "application/alto-costmapfilter+json"
+            ],
+            "capabilities": {
+               "cost-constraints": true,
+               "cost-modes": [
+                  "numerical",
+                  "ordinal"
+               ],
+               "cost-types": [
+                  "routingcost"
+               ]
+            },
+            "media-types": [
+               "application/alto-costmap+json"
+            ],
+            "uri": "http://alto.ietf.org/costmap/filtered"
+         },
+         {
+            "accepts": [
+               "application/alto-endpointcostparams+json"
+            ],
+            "capabilities": {
+               "cost-constraints": true,
+               "cost-modes": [
+                  "numerical",
+                  "ordinal"
+               ],
+               "cost-types": [
+                  "routingcost"
+               ]
+            },
+            "media-types": [
+               "application/alto-endpointcost+json"
+            ],
+            "uri": "http://alto.ietf.org/endpoints/cost"
+         },
+         {
+            "accepts": [
+               "application/alto-endpointpropparams+json"
+            ],
+            "capabilities": {
+               "prop-types": [
+                  "pid"
+               ]
+            },
+            "media-types": [
+               "application/alto-endpointprop+json"
+            ],
+            "uri": "http://alto.ietf.org/endpoints/property"
+         },
+         {
+            "accepts": [
+               "application/alto-networkmapfilter+json"
+            ],
+            "media-types": [
+               "application/alto-networkmap+json"
+            ],
+            "uri": "http://alto.ietf.org/networkmap/filtered"
+         }
+      ]
+      }

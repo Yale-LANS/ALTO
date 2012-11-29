@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data
+END
+test_pid_matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_pid_matrix.cpp
+END
+test_pid_aggregation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_pid_aggregation.cpp
+END
+test_pid_routing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_pid_routing.cpp
+END
+test_interdomain_pair.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_interdomain_pair.cpp
+END
+test_net_state.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_net_state.cpp
+END
+test_pid_map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_pid_map.cpp
+END
+test_net_location.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/server/test/unittest/data/test_net_location.cpp
+END

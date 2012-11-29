@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/main/!svn/ver/276/trunk/p4p/alto-prototype/test
+END
+interop-cases-02.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/main/!svn/ver/276/trunk/p4p/alto-prototype/test/interop-cases-02.py
+END
+interop-cases-02-result
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/main/!svn/ver/276/trunk/p4p/alto-prototype/test/interop-cases-02-result
+END

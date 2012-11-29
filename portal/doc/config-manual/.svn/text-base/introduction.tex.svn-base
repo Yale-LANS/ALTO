@@ -1,0 +1,22 @@
+\section{Introduction}
+
+The P4P Portal Server provides applications information to better
+utilize network resources.  This manual begins by discussing how to run the P4P Portal
+Server, and then discusses how to configure the network information it provides to applications.
+
+\subsection{Prerequisites}
+
+Before reading this guide, you should be familiar with the P4P framework.  The
+framework, including terminology and architecture, is discussed in:
+\begin{verbatim}
+http://p4p.cs.yale.edu/projects/p4p/draft-p4p-framework.txt
+\end{verbatim}
+
+This guide currently assumes you are running Linux, and that you have
+installed at least the following P4P packages on your machine:
+\begin{itemize}
+\item \texttt{p4p-portal-server}
+\item \texttt{p4p-portal-shell}
+\item \texttt{p4p-portal-utils}
+\item \texttt{p4p-portal-docs}
+\end{itemize}

@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/stdafx.h
+END
+merkle_tree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/merkle_tree.cpp
+END
+bt_peer_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_peer_link.h
+END
+bt_file_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_file_data.h
+END
+bt_tracker_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_tracker_link.h
+END
+bt_pl_write_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_pl_write_data.cpp
+END
+bt_file.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_file.cpp
+END
+bt_hasher.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_hasher.h
+END
+make.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/make.sh
+END
+bt_sub_file_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_sub_file_data.cpp
+END
+server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/server.cpp
+END
+data_counter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/data_counter.cpp
+END
+bt_piece_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_piece_data.h
+END
+bt_peer_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_peer_data.cpp
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/config.h
+END
+bt_piece.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_piece.cpp
+END
+XBT Client Backend.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/XBT%20Client%20Backend.nsi
+END
+version_check_handler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/version_check_handler.cpp
+END
+bt_link.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_link.cpp
+END
+scheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/scheduler.h
+END
+BT Test.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/BT%20Test.vcproj
+END
+profiles.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/profiles.h
+END
+ring_buffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/ring_buffer.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/stdafx.cpp
+END
+block_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/block_list.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/CMakeLists.txt
+END
+bt_tracker_link.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_tracker_link.cpp
+END
+bt_peer_link.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_peer_link.cpp
+END
+bt_file_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_file_data.cpp
+END
+bt_admin_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_admin_link.h
+END
+bt_hasher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_hasher.cpp
+END
+http_response_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/http_response_handler.h
+END
+http_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/http_link.h
+END
+bt_piece_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_piece_data.cpp
+END
+merkle_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/merkle_tree.h
+END
+BT Test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/BT%20Test.cpp
+END
+config.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/config.cpp
+END
+bt_pl_write_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_pl_write_data.h
+END
+bt_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_file.h
+END
+server.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/server.h
+END
+bt_sub_file_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_sub_file_data.h
+END
+data_counter.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/data_counter.h
+END
+scheduler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/scheduler.cpp
+END
+bt_peer_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_peer_data.h
+END
+BT Test.sln
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/BT%20Test.sln
+END
+bt_piece.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_piece.h
+END
+profiles.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/profiles.cpp
+END
+version_check_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/version_check_handler.h
+END
+block_list.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/block_list.cpp
+END
+bt_link.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_link.h
+END
+bt_admin_link.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/bt_admin_link.cpp
+END
+http_response_handler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/http_response_handler.cpp
+END
+http_link.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/http_link.cpp
+END
+ring_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/apps/filesharing/xbt/BT%20Test/ring_buffer.h
+END

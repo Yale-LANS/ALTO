@@ -1,0 +1,13 @@
+Source: p4p-common-server
+Section: libs
+Priority: extra
+Maintainer: Richard Alimi <richard.alimi@yale.edu>
+Build-Depends: cdbs, debhelper (>= 7), cmake (>= 2.6.0), libboost-graph1.35-dev, libboost-thread1.35-dev, libboost-date-time1.35-dev, libboost-filesystem1.35-dev, libboost-iostreams1.35-dev, libboost-serialization1.35-dev, liblog4cpp5-dev, zlib1g-dev, libmicrohttpd-dev, p4p-common-cpp
+Standards-Version: 3.7.3
+Homepage: http://p4p.cs.yale.edu/
+
+Package: p4p-common-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: P4P Common Server Libraries
+ P4P Common Server Libraries

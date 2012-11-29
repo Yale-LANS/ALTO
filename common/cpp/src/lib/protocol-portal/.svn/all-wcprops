@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal
+END
+pdistance_matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/pdistance_matrix.cpp
+END
+pid_prefixes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/pid_prefixes.cpp
+END
+metainfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/metainfo.cpp
+END
+parsing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/parsing.cpp
+END
+admin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/admin.cpp
+END
+location.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/location.cpp
+END
+pdistance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/lib/protocol-portal/pdistance.cpp
+END

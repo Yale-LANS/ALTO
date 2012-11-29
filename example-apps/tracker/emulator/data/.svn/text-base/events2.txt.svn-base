@@ -1,0 +1,50 @@
+sleep 1000
+
+add_channel C1 location-only 0.75 0.9
+sleep 1000
+
+peer_join C1 C1P1 60.176.1.2 	1234
+peer_join C1 C1P2 128.36.3.4	1234
+peer_join C1 C1P3 58.32.5.6	1234
+peer_join C1 C1P4 60.180.7.8	1234
+peer_join C1 C1P5 122.233.128.9	1234
+
+select_peers C1 C1P1 50
+select_peers C1 C1P2 50
+select_peers C1 C1P3 50
+select_peers C1 C1P4 50
+select_peers C1 C1P5 50
+
+peer_leave C1 C1P1
+peer_leave C1 C1P2
+peer_leave C1 C1P3
+
+select_peers C1 C1P4 50
+select_peers C1 C1P5 50
+
+show_current
+
+add_channel C2 streaming-swarm-dependent 50000
+sleep 1000
+
+peer_join C2 C2P1 60.178.1.2	1234
+peer_join C2 C2P2 59.42.3.4	1234
+peer_join C2 C2P3 128.36.5.6	1234
+peer_join C2 C2P4 60.163.7.8	1234
+peer_join C2 C2P5 60.190.16.9	1234
+
+select_peers C2 C2P1 50
+select_peers C2 C2P2 50
+select_peers C2 C2P3 50
+select_peers C2 C2P4 50
+select_peers C2 C2P5 50
+
+peer_leave C2 C2P1
+peer_leave C2 C2P2
+peer_leave C2 C2P3
+
+select_peers C2 C2P4 50
+select_peers C2 C2P5 50
+
+show_diff
+

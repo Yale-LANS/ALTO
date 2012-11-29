@@ -1,0 +1,129 @@
+#########################################################
+# P4P Portal server configuration syntax
+# 
+#   Please also refer to the Abilene configuration
+#   in the example directory
+#########################################################
+
+#########################################################
+# Notation:
+#
+#   <ISP>: uniqe string identifying the ISP 
+#          domain name recommended (e.g., 'isp.net')
+#
+#   <PID-NAME>: unique user-friendly name identifying a
+#          PID across entire ISP
+#
+#   <PID-NUM>: unique unsigned integer (32 bits) 
+#          identifying a PID within the ISP
+#
+#   <PID>: identifies a PID-level node
+#          <PID> := <PID-NUM>.<PID-EXT>.<ISP>
+#
+#   <PID-LINK>: unique user-friendly name identifying a
+#          PID-level link.
+#
+#   <text>: text followed by keyword description
+#          no text is parsed
+#########################################################
+
+
+
+#########################################################
+# configuration syntax version
+#########################################################
+version 2.1
+
+
+
+#########################################################
+# Location Portal Service 
+#   and PID level network topology configuration
+#########################################################
+
+#########################################################
+# ISP identifier 
+#   default is 'isp.net'
+#########################################################
+isp default <ISP>
+
+
+#########################################################
+# internal (intradomain) PIDs
+#########################################################
+pid internal <PID-NUM> <PID-NAME>
+    [prefixes <list of IP prefixes>]
+    [description <text>]
+
+
+#########################################################
+# external (interdomain) PIDs
+#########################################################
+pid external <PID-NUM> <PID-NAME>
+    [prefixes <list of IP prefixes>]
+    [description <text>]
+
+
+#########################################################
+# PID-LINKs
+#   link two directly connected PIDs
+# NOTE: link capacity and traffic volume are not tested 
+#       in the field tests;
+#       routing-weight (default is 1) is OSPF routing 
+#       metric on the PID level topology
+#########################################################
+pid link <PID-NAME> <PID-NAME> <PID-LINK>
+     [capacity <capacity>]
+     [traffic {static <volume> | dynamic}]
+     routing-weight <weight>
+     [description <text>]
+
+
+#########################################################
+# PID-level routing 
+# NOTE: Using routing weights in the configuration is
+#       mutually exclusive with using paths;
+#       static path is DISABLED in the field tests.
+#########################################################
+pid routing weights
+# pid path <source PID-NAME> <destination PID-NAME> :
+#     <intermediate PID-LINK> ... <intermediate PID-LINK>
+
+
+#########################################################
+# pDistance Portal Service configuration
+#########################################################
+
+#########################################################
+# dynamic update rules
+#   default is 'MLU' for intradomain
+#   default is 'multihoming-cost' for interdomain
+# NOTE: congestion-volume is DISABLED in the field tests
+#########################################################
+dynamic-update-rule intradomain {MLU | congestion-volume}
+dynamic-update-rule interdomain multihoming-cost
+
+
+#########################################################
+# pDistance of PID links
+#   default is 'dynamic'
+#########################################################
+pdistance link <PID-LINK> {static <value> | dynamic}
+
+
+#########################################################
+# default pDistances
+#########################################################
+pdistance intra-pid default <value>
+pdistance inter-pid default <value>
+pdistance pid-link default <value>
+
+
+#########################################################
+# exclude intradomain pDistance when returning 
+# pDistance between internal and external peers.
+#   default is to include intradomain pDistance
+#########################################################
+pdistance interdomain exclude intradomain
+
+

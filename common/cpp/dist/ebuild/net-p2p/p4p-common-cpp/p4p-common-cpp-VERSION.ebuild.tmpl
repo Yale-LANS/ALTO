@@ -1,0 +1,38 @@
+# Copyright 1999-2008 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+inherit cmake-utils
+
+DESCRIPTION="P4P Common Libraries"
+HOMEPAGE="http://p4p.cs.yale.edu/"
+SRC_URI="%BASEURL%/${P}.tar.gz"
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE=""
+
+DOCS="README LICENSE AUTHORS LIBPATRICIA-COPYRIGHT LIBPATRICIA-CREDITS LIBPATRICIA-README"
+
+DOCS="${DOCS} html"
+
+RDEPEND="net-misc/curl"
+DEPEND="${RDEPEND}
+	app-doc/doxygen
+	media-gfx/graphviz
+	>=dev-util/cmake-2.6"
+
+src_install() {
+	# Install, but without documentation for now
+	DOCS_TEMP=${DOCS}
+	DOCS=
+	cmake-utils_src_install
+	DOCS=${DOCS_TEMP}
+
+	# Copy built files back to source and remove installed files
+	cp -r "${D}/usr/share/doc/p4p_common_cpp/html" html
+	rm -rf "${D}/usr/share/doc/p4p_common_cpp"
+
+	# Install the documentation
+	dodoc ${DOCS} || die "dodoc failed"
+}

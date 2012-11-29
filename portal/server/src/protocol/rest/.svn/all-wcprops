@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/main/!svn/ver/281/trunk/p4p/alto-prototype/portal/server/src/protocol/rest
+END
+rest_request_handlers_json.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/main/!svn/ver/281/trunk/p4p/alto-prototype/portal/server/src/protocol/rest/rest_request_handlers_json.cpp
+END
+rest_request_handlers_view.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/main/!svn/ver/254/trunk/p4p/alto-prototype/portal/server/src/protocol/rest/rest_request_handlers_view.cpp
+END
+rest_request_handlers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/main/!svn/ver/277/trunk/p4p/alto-prototype/portal/server/src/protocol/rest/rest_request_handlers.cpp
+END
+rest_request_handlers.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/main/!svn/ver/279/trunk/p4p/alto-prototype/portal/server/src/protocol/rest/rest_request_handlers.h
+END
+rest_request_handlers_admin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/main/!svn/ver/279/trunk/p4p/alto-prototype/portal/server/src/protocol/rest/rest_request_handlers_admin.cpp
+END

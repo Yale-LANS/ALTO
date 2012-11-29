@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/main/!svn/ver/272/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/compiler.h
+END
+heap_with_delete.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/heap_with_delete.h
+END
+patricia.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/patricia.h
+END
+pid_matrix_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/pid_matrix_generic.h
+END
+random_access_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/random_access_set.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/util.h
+END
+inet_service.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/inet_service.h
+END
+patricia_trie.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/272/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/patricia_trie.h
+END
+temp_file_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/temp_file_stream.h
+END
+mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/common/cpp/src/include/p4p/detail/mutex.h
+END

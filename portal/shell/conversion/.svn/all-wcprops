@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/conversion
+END
+portal-config-v1.0-preprocess.pl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/conversion/portal-config-v1.0-preprocess.pl
+END
+portal-config-v1.0-to-v2.0.pl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/conversion/portal-config-v1.0-to-v2.0.pl
+END
+portal-config-v2.0-to-v2.1.pl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/shell/conversion/portal-config-v2.0-to-v2.1.pl
+END

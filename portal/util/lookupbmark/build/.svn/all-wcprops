@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build
+END
+Findp4p_common_server.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/Findp4p_common_server.cmake
+END
+import-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/import-jar.xml
+END
+make-simple-modules.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/make-simple-modules.sh
+END
+FindMySQL.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/FindMySQL.cmake
+END
+FindLog4cpp.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/FindLog4cpp.cmake
+END
+FindCplex.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/FindCplex.cmake
+END
+Findp4p_aoe_engine.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/Findp4p_aoe_engine.cmake
+END
+Doxygen.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/Doxygen.cmake
+END
+Findp4p_common_cpp.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/Findp4p_common_cpp.cmake
+END
+FindMicrohttpd.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/FindMicrohttpd.cmake
+END
+FindLibrary.cmake.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/FindLibrary.cmake.tmpl
+END
+BoostUnitTest.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/BoostUnitTest.cmake
+END
+AntTarget.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/AntTarget.cmake
+END
+UseLATEX.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/UseLATEX.cmake
+END
+CommonInclude.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/CommonInclude.cmake
+END
+simple-modules.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/simple-modules.txt
+END
+FindGLPK.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/main/!svn/ver/199/trunk/p4p/alto-prototype/portal/util/lookupbmark/build/FindGLPK.cmake
+END
