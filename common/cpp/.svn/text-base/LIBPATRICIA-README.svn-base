@@ -1,5 +1,0 @@
-NOTE: This library directly includes the patricia.h and patricia.c (with
-minor modifications) extracted from the Net-Patricia Perl Library.  The
-LIBPATRICIA-COPYRIGHT and LIBPATRICIA-CREDITS files are the copyright and
-credits.txt files originally distributed alongside patricia.h and
-patricia.c.

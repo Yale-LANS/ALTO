@@ -1,4 +1,0 @@
-include $(abspath $(dir $(lastword ${MAKEFILE_LIST})))/server/Makefile.dist	\
-	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/shell/Makefile.dist	\
-	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/util/Makefile.dist	\
-	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/doc/Makefile.dist

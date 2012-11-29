@@ -1,3 +1,0 @@
-ALLPACKAGES += p4p-portal-shell
-DEP_p4p_portal_shell := p4p-common-cpp
-LOC_p4p_portal_shell := $(abspath $(dir $(lastword ${MAKEFILE_LIST})))

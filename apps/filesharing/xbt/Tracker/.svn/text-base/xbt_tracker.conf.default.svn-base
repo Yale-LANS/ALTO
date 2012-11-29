@@ -1,6 +1,0 @@
-mysql_host = localhost
-mysql_user = xbt
-mysql_password =
-mysql_database = xbt
-aoe_address = p4p-4.cs.yale.edu:6673
-portal_addresses = p4p-4.cs.yale.edu:6679,p4p-3.cs.yale.edu:6685

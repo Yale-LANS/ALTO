@@ -1,8 +1,0 @@
-[Admin]
-type = REST
-port = 16672
-allow-admin = true
-
-[Client-REST]
-type = REST
-port = 16671

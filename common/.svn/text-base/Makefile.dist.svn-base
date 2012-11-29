@@ -1,3 +1,0 @@
-include $(abspath $(dir $(lastword ${MAKEFILE_LIST})))/cpp/Makefile.dist	\
-	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/com/Makefile.dist	\
-	$(abspath $(dir $(lastword ${MAKEFILE_LIST})))/java/Makefile.dist
